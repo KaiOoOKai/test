@@ -1,0 +1,86 @@
+nav
+{
+	background: #ccc;
+	height: 50px;
+}
+
+#banner
+{
+	background: #777;
+	height: 700px;
+}
+
+nav ul
+{
+	list-style: none;
+	margin: 0
+	float: right;
+}
+
+nav ul li
+{
+	display: inline-block;
+	line-height: 50px;
+	float: right;
+	margin-right: 20px;
+}
+
+nav ul li.logo
+{
+	float: left;
+	paddinf:10px;
+}
+
+nav ul li a
+{
+	line-height: 50px;
+	text-decoration: none;
+	display: inline-block;
+	height: inherit;
+	color: #fff;
+}
+
+#banner .inner
+{
+	max-width: 300px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 160px;
+}
+
+#banner .inner h1
+{
+	margin: 0;
+}
+
+#banner .inner .more
+{
+	margin-top: 280px;
+}
+
+#banner button
+{
+	border: none;
+	background: #333;
+	color: #eee;
+	padding: 14px 40px;
+}
+
+.sub-heading
+{
+	line-height: 30px;
+	margin: 30px;
+}
+
+.logo
+{
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing:1px;
+}
+
+.logo a
+{
+	color: #fff;
+}
